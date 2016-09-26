@@ -131,6 +131,10 @@ public class DisplaySuraActivity extends Activity
             {
                 xpp=this.getResources().getXml(R.xml.escortes);
             }
+            else if(nTranslationVal == 6)				//Added Chinese (non-Traditional) Translation
+            {
+            	xpp=this.getResources().getXml(R.xml.zhjian);
+            }
             ArrayList<String> translatedAyaList = new ArrayList<String>();
             if(nTranslationVal != 0)
             {
